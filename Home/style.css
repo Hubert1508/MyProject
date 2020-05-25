@@ -1,0 +1,28 @@
+body
+{
+	background-image: url("picture/tlo.jpg");
+	background-size: 1500px 2000px;
+	text-align: center;
+	opacity: 0.4;
+}
+
+h1
+{
+	font-size: 40px;
+	text-shadow: 2px 2px 5px #FFFF00;
+	color: #FFFF00;
+}
+
+button
+{
+	cursor:pointer;
+	background-color: yellow;
+	font-size: 25px;
+	border-radius: 25px;
+	filter:brightness(80%);
+}
+
+button:hover
+{
+	filter:brightness(100%);
+}

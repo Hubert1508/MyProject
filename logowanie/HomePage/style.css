@@ -1,0 +1,96 @@
+body
+{
+	width: auto;
+	height: auto;
+	background-color: black;
+	font-family: 'Audiowide', cursive;
+	font-size: 25px;
+	color: lightblue;
+	text-align: center;
+	background-image: url("picture/tlo.jpg");
+	background-size: 1920px 1080px;
+}
+
+h1
+{
+	text-align: center;
+	text-shadow: 3px 3px 15px aqua;
+	text-decoration: underline;
+}
+
+menu
+{
+	width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img
+{
+	width: 250px;
+	height: 200px;
+	padding:5px;
+	margin: 8px;
+	border-radius: 25px;
+	border: 2px solid black;
+	filter:brightness(60%);
+	transition:all .8s ease-in-out;
+	}
+
+img:hover
+{
+	border: 2px solid #E9B64A;
+	transition: 1s;
+	filter:brightness(100%);
+}
+
+.opcje
+{
+	transition:all .8s ease-in-out;
+	filter:brightness(60%);
+}
+
+.opcje:hover
+{
+	transition: 1s;
+	filter:brightness(100%);
+}
+
+button
+{
+	border: 1px solid black;
+	font-family: 'Audiowide';
+	transition:all .5s ease-in-out;
+}
+
+button:hover
+{
+	color:white;
+	transition:1s;
+}
+
+a.button
+{
+	color:black;
+	border-radius:10px;
+	cursor:pointer;
+	text-shadow: 2px 2px 15px red;
+	background-color: black;
+	font-size: 25px;
+	text-align: center;
+}
+
+a.button:hover
+{
+	color:white;
+	transition:1s;
+}
+
+h2
+{
+  font-size: 18px;
+	padding: 8px;
+  color: gray;
+  text-align: center;
+	opacity: 0.9;
+}
